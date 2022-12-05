@@ -68,7 +68,7 @@ $(document).keydown(function(){
 
 
 
-// $(".gamestart-btn").click(function(){
-//     window.location.reload();
-//  });
+$(".gamestart-btn").click(function(){
+    window.location.reload();
+ });
 
