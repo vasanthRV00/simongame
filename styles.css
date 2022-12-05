@@ -1,0 +1,116 @@
+body{
+    background-color: #000000;
+} 
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #FF1E1E;
+    text-align: center;
+    padding-top: 20px;
+}
+h2{
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.game-btn{
+    text-align: center;
+    padding-top: 3%;
+ 
+}
+
+
+.red-btn{
+    margin-right: 10px;
+    background-color: red;
+    padding: 70px 70px 70px 70px;
+    border: 10px;
+    /* box-shadow: 2px 4px  red; */
+    box-shadow: 0 0 0 1px #f25022 inset, 0 0 0 2px rgb(255 255 255 / 15%) inset, 0 8px 0 0 #c93a12, 0 8px 0 1px rgb(0 0 0 / 40%), 0 8px 8px 1px rgb(0 0 0 / 50%);
+    transition: 0.15s;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.green-btn{
+    margin-left: 10px;
+    background-color: green;
+    padding: 70px 70px 70px 70px;
+    border: 5px;
+    box-shadow: 0 0 0 1px #7fba00 inset, 0 0 0 2px rgb(255 255 255 / 15%) inset, 0 8px 0 0 #638f05, 0 8px 0 1px rgb(0 0 0 / 40%), 0 8px 8px 1px rgb(0 0 0 / 50%);
+    transition: 0.15s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.blue-btn{
+    margin-right: 10px;
+    background-color: blue;
+    padding: 70px 70px 70px 70px;
+    border: 5px;
+    box-shadow:  0 0 0 1px #00a4ef inset, 0 0 0 2px rgb(255 255 255 / 15%) inset, 0 8px 0 0 #0883bc, 0 8px 0 1px rgb(0 0 0 / 40%), 0 8px 8px 1px rgb(0 0 0 / 50%);
+    transition: 0.15s;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+.yellow-btn{
+    margin-left: 10px;
+    background-color: yellow;
+    padding: 70px 70px 70px 70px;
+    border: 5px;
+    box-shadow: 0 0 0 1px #ffb900 inset, 0 0 0 2px rgb(255 255 255 / 15%) inset, 0 8px 0 0 #c28e07, 0 8px 0 1px rgb(0 0 0 / 40%), 0 8px 8px 1px rgb(0 0 0 / 50%);
+    transition: 0.15s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gamestart-btn{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+
+
+.start-btn{
+    padding: 5px 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.start-btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #FF1E1E;
+    color: white;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  
+.hidden{
+    display: none;
+}
